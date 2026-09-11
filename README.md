@@ -12,13 +12,21 @@
 
 ## 在 Surge 中订阅
 
-在 Surge iOS / Mac 客户端「设置 → 策略组图标 → 添加订阅」中填入：
+### 推荐：版本化直链（即时生效，杜绝 CDN 与客户端缓存）
+
+由于 jsDelivr CDN 与 iOS 网络栈对 `@main` 分支有较长时间的强缓存，**强烈推荐使用 Git Tag 版本化链接订阅**：
+
+```text
+https://cdn.jsdelivr.net/gh/howl7/surge-icons@v1.0.1/surge-icon.json
+```
+
+### 备用：滚动更新直链（随 main 分支更新，受 CDN 缓存约 12h-7d 影响）
 
 ```text
 https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/surge-icon.json
 ```
 
-也可以用 GitHub raw 直链（无 CDN 加速，国内访问可能较慢）：
+也可以用 GitHub raw 直链（无 CDN 加速，需代理支持）：
 
 ```text
 https://raw.githubusercontent.com/howl7/surge-icons/main/surge-icon.json
@@ -26,8 +34,7 @@ https://raw.githubusercontent.com/howl7/surge-icons/main/surge-icon.json
 
 订阅成功后，编辑策略组时即可在图标选择器中按分类（Country / Media / AI / Brand / Tool）浏览并点选。
 
-> jsDelivr 对 `@main` 分支约有 12 小时边缘缓存，新增/替换图标后如需立即生效，可访问：
-> `https://purge.jsdelivr.net/gh/howl7/surge-icons@main/<path>` 主动刷新对应文件。
+> ⚠️ **客户端缓存注意**：Surge iOS 主界面上已经绑定的策略组卡片，在图标库更新后不会自动热重载，需在策略组设置中重新点选一次该图标。
 
 ---
 
@@ -91,18 +98,28 @@ https://raw.githubusercontent.com/howl7/surge-icons/main/surge-icon.json
 
 ---
 
-## 维护
-
-新增/替换图标后，在仓库根目录重新生成 `surge-icon.json`：
-
+## 维护与版本发布 SOP
+ 
+新增或调整图标后，推荐使用 Git Tag 方式发布，彻底避免 CDN 与客户端缓存滞后：
+ 
 ```bash
-python3 generate-icon-json.py --repo howl7/surge-icons --branch main \
+# 1. 放入符合规范的 PNG 文件至 icons/<分类>/<名称>.png
+ 
+# 2. 生成对应 Tag 的图标库 JSON（例如发布 v1.0.2）
+python3 generate-icon-json.py --repo howl7/surge-icons --branch v1.0.2 \
   --name "Howl-Surge-Icons" \
   --desc "个人定制高精 Retina 正圆策略组图标库 · 256x256 · 国旗细黑边 / 非国旗无描边" \
   --icons-dir icons --out surge-icon.json
+ 
+# 3. 提交并打 Git Tag 推送
+git add -A
+git commit -m "feat(icons): release v1.0.2"
+git tag -a v1.0.2 -m "release v1.0.2"
+git push origin main
+git push origin v1.0.2
 ```
-
-图标需先满足：256×256 px、RGBA、圆形外部纯透明、国旗 2.5px 黑边 `#1A1A1A`、非国旗无描边，放入 `icons/<分类>/<名称>.png` 后再跑脚本。
+ 
+图标设计规约：256×256 px、RGBA、圆形外部纯透明、国旗 2.5px 黑边 `#1A1A1A`、非国旗无描边。
 
 ---
 
