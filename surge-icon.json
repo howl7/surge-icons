@@ -1,0 +1,161 @@
+{
+  "name": "Howl-Surge-Icons",
+  "description": "个人定制高精 Retina 正圆策略组图标库 · 256x256 · 国旗细黑边 / 非国旗无描边",
+  "icons": [
+    {
+      "name": "Antigravity",
+      "category": "AI",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/AI/Antigravity.png"
+    },
+    {
+      "name": "Claude",
+      "category": "AI",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/AI/Claude.png"
+    },
+    {
+      "name": "Codex",
+      "category": "AI",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/AI/Codex.png"
+    },
+    {
+      "name": "Apple",
+      "category": "Brand",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Brand/Apple.png"
+    },
+    {
+      "name": "Google",
+      "category": "Brand",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Brand/Google.png"
+    },
+    {
+      "name": "Nintendo",
+      "category": "Brand",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Brand/Nintendo.png"
+    },
+    {
+      "name": "America",
+      "category": "Country",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Country/America.png"
+    },
+    {
+      "name": "China",
+      "category": "Country",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Country/China.png"
+    },
+    {
+      "name": "HongKong",
+      "category": "Country",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Country/HongKong.png"
+    },
+    {
+      "name": "Japan",
+      "category": "Country",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Country/Japan.png"
+    },
+    {
+      "name": "Korea",
+      "category": "Country",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Country/Korea.png"
+    },
+    {
+      "name": "Singapore",
+      "category": "Country",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Country/Singapore.png"
+    },
+    {
+      "name": "Taiwan",
+      "category": "Country",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Country/Taiwan.png"
+    },
+    {
+      "name": "UnitedKingdom",
+      "category": "Country",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Country/UnitedKingdom.png"
+    },
+    {
+      "name": "Disney",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/Disney.png"
+    },
+    {
+      "name": "HBOMax",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/HBOMax.png"
+    },
+    {
+      "name": "Hulu",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/Hulu.png"
+    },
+    {
+      "name": "Netflix",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/Netflix.png"
+    },
+    {
+      "name": "Peacock",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/Peacock.png"
+    },
+    {
+      "name": "PrimeVideo",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/PrimeVideo.png"
+    },
+    {
+      "name": "Spotify",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/Spotify.png"
+    },
+    {
+      "name": "TVB",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/TVB.png"
+    },
+    {
+      "name": "TVB_ball",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/TVB_ball.png"
+    },
+    {
+      "name": "TVB_frame",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/TVB_frame.png"
+    },
+    {
+      "name": "YouTube",
+      "category": "Media",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Media/YouTube.png"
+    },
+    {
+      "name": "Mitaka",
+      "category": "Tool",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Tool/Mitaka.png"
+    },
+    {
+      "name": "PayPal",
+      "category": "Tool",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Tool/PayPal.png"
+    },
+    {
+      "name": "Speedtest",
+      "category": "Tool",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Tool/Speedtest.png"
+    },
+    {
+      "name": "Surge",
+      "category": "Tool",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Tool/Surge.png"
+    },
+    {
+      "name": "YToo",
+      "category": "Tool",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Tool/YToo.png"
+    },
+    {
+      "name": "YToo_blue",
+      "category": "Tool",
+      "url": "https://cdn.jsdelivr.net/gh/howl7/surge-icons@main/icons/Tool/YToo_blue.png"
+    }
+  ]
+}
